@@ -294,16 +294,16 @@ img{
 
 
 .skills__html{
-  width: 70%;
+  width: 50%;
 }
 .skills__css{
   width: 55%;
 }
 .skills__js{
-  width: 65%;
+  width: 55%;
 }
 .skills__python{
-  width: 90%;
+  width: 60%;
 }
 
 .skills__sql{
@@ -428,6 +428,7 @@ img{
   .home__social-icon{
     margin-bottom: 0;
     margin-right: var(--mb-4);
+
   }
   .home__img{
     width: 457px;
@@ -451,9 +452,13 @@ img{
   }
   .contact__form{
     width: 360px;
+    text-decoration: none;
   }
   .contact__container{
     justify-items: center;
+    font-size: 2.0rem;  
+    color: #ff0000;  
+    
   }
 }
 
